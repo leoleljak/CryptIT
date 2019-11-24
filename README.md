@@ -4,5 +4,5 @@
 Video DEMO
 [DEMO Video for App](https://streamable.com/gzzzw)
 
-![HomeScreen](https://ibb.co/j4dzm8x)
+![HomeScreen](/CryptIT/Resources/DEMO.png)
 Format: ![Alt Text](url)
