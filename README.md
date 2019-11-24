@@ -4,5 +4,5 @@
 Video DEMO
 [DEMO Video for App](https://streamable.com/gzzzw)
 
-![HomeScreen](/CryptIT/Resources/DEMO.png)
+![HomeScreen](/Resources/DEMO.png)
 Format: ![Alt Text](url)
