@@ -22,9 +22,9 @@
 		EDC1768C238C24D000A65705 /* DecryptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC17689238C24D000A65705 /* DecryptionVC.swift */; };
 		EDC1768D238C24D000A65705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC1768A238C24D000A65705 /* Main.storyboard */; };
 		EDC1768E238C24D000A65705 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1768B238C24D000A65705 /* MainVC.swift */; };
-		EDC17695238C260200A65705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC17694238C260200A65705 /* Assets.xcassets */; };
 		EDC17699238C26BE00A65705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC17698238C26BE00A65705 /* LaunchScreen.storyboard */; };
 		EDC1769D238C27D000A65705 /* DEMO.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC1769C238C27D000A65705 /* DEMO.png */; };
+		EDC176A3238C29DD00A65705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC176A2238C29DD00A65705 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,10 +47,9 @@
 		EDC17689238C24D000A65705 /* DecryptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecryptionVC.swift; sourceTree = "<group>"; };
 		EDC1768A238C24D000A65705 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EDC1768B238C24D000A65705 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		EDC17694238C260200A65705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../CryptoOS2/CryptIT/CryptIT/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		EDC17698238C26BE00A65705 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EDC1769B238C26D500A65705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../CryptoOS2/CryptIT/CryptIT/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		EDC1769C238C27D000A65705 /* DEMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DEMO.png; sourceTree = "<group>"; };
+		EDC176A2238C29DD00A65705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +107,6 @@
 				ED6D051B238C221600B52B25 /* Modules */,
 				EDC17696238C269200A65705 /* Resources */,
 				EDC1769A238C26C700A65705 /* LaunchScreen */,
-				EDC17694238C260200A65705 /* Assets.xcassets */,
 			);
 			path = "CryptIT-R";
 			sourceTree = "<group>";
@@ -198,7 +196,7 @@
 		EDC17696238C269200A65705 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EDC1769B238C26D500A65705 /* Assets.xcassets */,
+				EDC176A2238C29DD00A65705 /* Assets.xcassets */,
 				ED6D050A238C20BE00B52B25 /* Info.plist */,
 				ED6D0502238C20BD00B52B25 /* CryptIT_R.xcdatamodeld */,
 				EDC1769C238C27D000A65705 /* DEMO.png */,
@@ -278,7 +276,7 @@
 				EDC17699238C26BE00A65705 /* LaunchScreen.storyboard in Resources */,
 				EDC1769D238C27D000A65705 /* DEMO.png in Resources */,
 				EDC1768D238C24D000A65705 /* Main.storyboard in Resources */,
-				EDC17695238C260200A65705 /* Assets.xcassets in Resources */,
+				EDC176A3238C29DD00A65705 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
