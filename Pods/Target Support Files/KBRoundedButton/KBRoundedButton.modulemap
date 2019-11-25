@@ -1,0 +1,6 @@
+framework module KBRoundedButton {
+  umbrella header "KBRoundedButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
