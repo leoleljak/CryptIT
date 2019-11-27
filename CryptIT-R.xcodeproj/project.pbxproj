@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B308E9561C387454D9FEE856 /* Pods_CryptIT_R.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0196B0FCAE59613520A39354 /* Pods_CryptIT_R.framework */; };
+		ED6D04FA238C20BD00B52B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D04F9238C20BD00B52B25 /* AppDelegate.swift */; };
+		ED6D04FC238C20BD00B52B25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D04FB238C20BD00B52B25 /* SceneDelegate.swift */; };
+		ED6D0504238C20BD00B52B25 /* CryptIT_R.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0502238C20BD00B52B25 /* CryptIT_R.xcdatamodeld */; };
+		ED6D0517238C212F00B52B25 /* RSACrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0513238C212F00B52B25 /* RSACrypto.swift */; };
+		ED6D0518238C212F00B52B25 /* AESCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0514238C212F00B52B25 /* AESCrypto.swift */; };
+		ED6D0519238C212F00B52B25 /* FileManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0515238C212F00B52B25 /* FileManagment.swift */; };
+		ED6D051A238C212F00B52B25 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0516238C212F00B52B25 /* RandomGenerator.swift */; };
+		ED6D0536238C241C00B52B25 /* DigitalSignature.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6D052F238C241B00B52B25 /* DigitalSignature.storyboard */; };
+		ED6D0538238C241C00B52B25 /* DigitalSignatureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0531238C241B00B52B25 /* DigitalSignatureVC.swift */; };
+		ED6D0539238C241C00B52B25 /* EncryptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0532238C241B00B52B25 /* EncryptionVC.swift */; };
+		ED6D053B238C241C00B52B25 /* TextSaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0534238C241C00B52B25 /* TextSaveVC.swift */; };
+		EDC1768C238C24D000A65705 /* DecryptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC17689238C24D000A65705 /* DecryptionVC.swift */; };
+		EDC1768D238C24D000A65705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC1768A238C24D000A65705 /* Main.storyboard */; };
+		EDC1768E238C24D000A65705 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1768B238C24D000A65705 /* MainVC.swift */; };
+		EDC17699238C26BE00A65705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC17698238C26BE00A65705 /* LaunchScreen.storyboard */; };
+		EDC1769D238C27D000A65705 /* DEMO.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC1769C238C27D000A65705 /* DEMO.png */; };
+		EDC176A3238C29DD00A65705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC176A2238C29DD00A65705 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0196B0FCAE59613520A39354 /* Pods_CryptIT_R.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptIT_R.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95634C79CDABEDE181C73D7 /* Pods-CryptIT-R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptIT-R.release.xcconfig"; path = "Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R.release.xcconfig"; sourceTree = "<group>"; };
+		ED20B18B172C7B19B97F4E09 /* Pods-CryptIT-R.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptIT-R.debug.xcconfig"; path = "Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6D04F6238C20BD00B52B25 /* CryptIT-R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptIT-R.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6D04F9238C20BD00B52B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6D04FB238C20BD00B52B25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6D0503238C20BD00B52B25 /* CryptIT_R.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptIT_R.xcdatamodel; sourceTree = "<group>"; };
+		ED6D050A238C20BE00B52B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6D0513238C212F00B52B25 /* RSACrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSACrypto.swift; sourceTree = "<group>"; };
+		ED6D0514238C212F00B52B25 /* AESCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESCrypto.swift; sourceTree = "<group>"; };
+		ED6D0515238C212F00B52B25 /* FileManagment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagment.swift; sourceTree = "<group>"; };
+		ED6D0516238C212F00B52B25 /* RandomGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
+		ED6D052F238C241B00B52B25 /* DigitalSignature.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DigitalSignature.storyboard; sourceTree = "<group>"; };
+		ED6D0531238C241B00B52B25 /* DigitalSignatureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalSignatureVC.swift; sourceTree = "<group>"; };
+		ED6D0532238C241B00B52B25 /* EncryptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionVC.swift; sourceTree = "<group>"; };
+		ED6D0534238C241C00B52B25 /* TextSaveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSaveVC.swift; sourceTree = "<group>"; };
+		EDC17689238C24D000A65705 /* DecryptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecryptionVC.swift; sourceTree = "<group>"; };
+		EDC1768A238C24D000A65705 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EDC1768B238C24D000A65705 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EDC17698238C26BE00A65705 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC1769C238C27D000A65705 /* DEMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DEMO.png; sourceTree = "<group>"; };
+		EDC176A2238C29DD00A65705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6D04F3238C20BD00B52B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B308E9561C387454D9FEE856 /* Pods_CryptIT_R.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29928D06589347210A09E2ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0196B0FCAE59613520A39354 /* Pods_CryptIT_R.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D54470D0117768032C1E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED20B18B172C7B19B97F4E09 /* Pods-CryptIT-R.debug.xcconfig */,
+				B95634C79CDABEDE181C73D7 /* Pods-CryptIT-R.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED6D04ED238C20BD00B52B25 = {
+			isa = PBXGroup;
+			children = (
+				ED6D04F8238C20BD00B52B25 /* CryptIT-R */,
+				ED6D04F7238C20BD00B52B25 /* Products */,
+				D9D54470D0117768032C1E99 /* Pods */,
+				29928D06589347210A09E2ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6D04F7238C20BD00B52B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D04F6238C20BD00B52B25 /* CryptIT-R.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6D04F8238C20BD00B52B25 /* CryptIT-R */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D0510238C20ED00B52B25 /* App */,
+				ED6D0511238C20F600B52B25 /* Common */,
+				ED6D051B238C221600B52B25 /* Modules */,
+				EDC17696238C269200A65705 /* Resources */,
+				EDC1769A238C26C700A65705 /* LaunchScreen */,
+			);
+			path = "CryptIT-R";
+			sourceTree = "<group>";
+		};
+		ED6D0510238C20ED00B52B25 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D04F9238C20BD00B52B25 /* AppDelegate.swift */,
+				ED6D04FB238C20BD00B52B25 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED6D0511238C20F600B52B25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D0512238C211200B52B25 /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ED6D0512238C211200B52B25 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D0514238C212F00B52B25 /* AESCrypto.swift */,
+				ED6D0515238C212F00B52B25 /* FileManagment.swift */,
+				ED6D0516238C212F00B52B25 /* RandomGenerator.swift */,
+				ED6D0513238C212F00B52B25 /* RSACrypto.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ED6D051B238C221600B52B25 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EDC17693238C256800A65705 /* TexrSave */,
+				EDC17692238C255400A65705 /* DigitalSignature */,
+				EDC17691238C252200A65705 /* Decryption */,
+				EDC17690238C250600A65705 /* Encryption */,
+				EDC1768F238C24ED00A65705 /* HomeScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDC1768F238C24ED00A65705 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1768A238C24D000A65705 /* Main.storyboard */,
+				EDC1768B238C24D000A65705 /* MainVC.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		EDC17690238C250600A65705 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D0532238C241B00B52B25 /* EncryptionVC.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		EDC17691238C252200A65705 /* Decryption */ = {
+			isa = PBXGroup;
+			children = (
+				EDC17689238C24D000A65705 /* DecryptionVC.swift */,
+			);
+			path = Decryption;
+			sourceTree = "<group>";
+		};
+		EDC17692238C255400A65705 /* DigitalSignature */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D052F238C241B00B52B25 /* DigitalSignature.storyboard */,
+				ED6D0531238C241B00B52B25 /* DigitalSignatureVC.swift */,
+			);
+			path = DigitalSignature;
+			sourceTree = "<group>";
+		};
+		EDC17693238C256800A65705 /* TexrSave */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D0534238C241C00B52B25 /* TextSaveVC.swift */,
+			);
+			path = TexrSave;
+			sourceTree = "<group>";
+		};
+		EDC17696238C269200A65705 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDC176A2238C29DD00A65705 /* Assets.xcassets */,
+				ED6D050A238C20BE00B52B25 /* Info.plist */,
+				ED6D0502238C20BD00B52B25 /* CryptIT_R.xcdatamodeld */,
+				EDC1769C238C27D000A65705 /* DEMO.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDC1769A238C26C700A65705 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC17698238C26BE00A65705 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6D04F5238C20BD00B52B25 /* CryptIT-R */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6D050D238C20BE00B52B25 /* Build configuration list for PBXNativeTarget "CryptIT-R" */;
+			buildPhases = (
+				53E0AC0F7F53CF615BEBB9B5 /* [CP] Check Pods Manifest.lock */,
+				ED6D04F2238C20BD00B52B25 /* Sources */,
+				ED6D04F3238C20BD00B52B25 /* Frameworks */,
+				ED6D04F4238C20BD00B52B25 /* Resources */,
+				38A595F74EC491DEEA8AE2C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptIT-R";
+			productName = "CryptIT-R";
+			productReference = ED6D04F6238C20BD00B52B25 /* CryptIT-R.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6D04EE238C20BD00B52B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Leo Leljak";
+				TargetAttributes = {
+					ED6D04F5238C20BD00B52B25 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = ED6D04F1238C20BD00B52B25 /* Build configuration list for PBXProject "CryptIT-R" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6D04ED238C20BD00B52B25;
+			productRefGroup = ED6D04F7238C20BD00B52B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6D04F5238C20BD00B52B25 /* CryptIT-R */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6D04F4238C20BD00B52B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6D0536238C241C00B52B25 /* DigitalSignature.storyboard in Resources */,
+				EDC17699238C26BE00A65705 /* LaunchScreen.storyboard in Resources */,
+				EDC1769D238C27D000A65705 /* DEMO.png in Resources */,
+				EDC1768D238C24D000A65705 /* Main.storyboard in Resources */,
+				EDC176A3238C29DD00A65705 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38A595F74EC491DEEA8AE2C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E0AC0F7F53CF615BEBB9B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptIT-R-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6D04F2238C20BD00B52B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6D051A238C212F00B52B25 /* RandomGenerator.swift in Sources */,
+				EDC1768E238C24D000A65705 /* MainVC.swift in Sources */,
+				ED6D04FA238C20BD00B52B25 /* AppDelegate.swift in Sources */,
+				ED6D0518238C212F00B52B25 /* AESCrypto.swift in Sources */,
+				ED6D0539238C241C00B52B25 /* EncryptionVC.swift in Sources */,
+				ED6D053B238C241C00B52B25 /* TextSaveVC.swift in Sources */,
+				ED6D0517238C212F00B52B25 /* RSACrypto.swift in Sources */,
+				ED6D0504238C20BD00B52B25 /* CryptIT_R.xcdatamodeld in Sources */,
+				ED6D0538238C241C00B52B25 /* DigitalSignatureVC.swift in Sources */,
+				ED6D0519238C212F00B52B25 /* FileManagment.swift in Sources */,
+				ED6D04FC238C20BD00B52B25 /* SceneDelegate.swift in Sources */,
+				EDC1768C238C24D000A65705 /* DecryptionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED6D050B238C20BE00B52B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6D050C238C20BE00B52B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6D050E238C20BE00B52B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED20B18B172C7B19B97F4E09 /* Pods-CryptIT-R.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THHFHC5J4D;
+				INFOPLIST_FILE = "CryptIT-R/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoleljak.CryptIT-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6D050F238C20BE00B52B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95634C79CDABEDE181C73D7 /* Pods-CryptIT-R.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THHFHC5J4D;
+				INFOPLIST_FILE = "CryptIT-R/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoleljak.CryptIT-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6D04F1238C20BD00B52B25 /* Build configuration list for PBXProject "CryptIT-R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6D050B238C20BE00B52B25 /* Debug */,
+				ED6D050C238C20BE00B52B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6D050D238C20BE00B52B25 /* Build configuration list for PBXNativeTarget "CryptIT-R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6D050E238C20BE00B52B25 /* Debug */,
+				ED6D050F238C20BE00B52B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED6D0502238C20BD00B52B25 /* CryptIT_R.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED6D0503238C20BD00B52B25 /* CryptIT_R.xcdatamodel */,
+			);
+			currentVersion = ED6D0503238C20BD00B52B25 /* CryptIT_R.xcdatamodel */;
+			path = CryptIT_R.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED6D04EE238C20BD00B52B25 /* Project object */;
+}

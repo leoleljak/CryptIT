@@ -1,0 +1,50 @@
+PODS:
+  - CommonCryptoModule (1.0.2)
+  - CryptoSwift (1.2.0)
+  - KBRoundedButton (1.0.4)
+  - RSASwiftGenerator (0.1.1):
+    - CommonCryptoModule
+  - SCLAlertView (0.8)
+  - Spring (1.0.6)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - KBRoundedButton
+  - RSASwiftGenerator
+  - SCLAlertView
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftyRSA
+
+SPEC REPOS:
+  trunk:
+    - CommonCryptoModule
+    - CryptoSwift
+    - KBRoundedButton
+    - RSASwiftGenerator
+    - SCLAlertView
+    - SwiftyRSA
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  CommonCryptoModule: 63a68b57abed79655b3a01011419bf037a05b0a0
+  CryptoSwift: 40e374e45291d8dceedcb0d6184da94533eaabdf
+  KBRoundedButton: 8fde755b8f1df3ddd3c3c280d9b27ce04ab55d00
+  RSASwiftGenerator: 4b38c0e0a879d31e3dbb594b212e3699f55d5dcc
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+
+PODFILE CHECKSUM: 33b3a986465f865181cfadb2b15eae4198633df0
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-CryptIT-R/Pods-CryptIT-R-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CommonCryptoModule/CommonCryptoModule.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/KBRoundedButton/KBRoundedButton.framework
+${BUILT_PRODUCTS_DIR}/RSASwiftGenerator/RSASwiftGenerator.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework
+${BUILT_PRODUCTS_DIR}/Spring/Spring.framework
+${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework
